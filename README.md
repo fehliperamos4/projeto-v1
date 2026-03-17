@@ -1,11 +1,13 @@
 # projeto-v1
 # roubank-css
 
-### **Autor:** Roni Fabio Banaszewski
+### **Autor:** Luis Felipe Ramos
 
-Este projeto tem como objetivo implementar progressivamente e de forma didática uma aplicação web inspirada em operações comuns de instituições financeiras (ex: saque, depósito, extrato, saldo, cadastro), sendo o diferencial, a cobrança de taxas de forma abusiva para cada operação realizada pelo cliente.
+Este projeto tem como objetivo implementar de forma simples e didática uma aplicação web de prontuário eletrônico, permitindo o cadastro e gerenciamento básico de pacientes.
 
-O frontend da aplicação foi desenvolvido com HTML, CSS e JavaScript e o backend foi simulado pela implementação de uma API Fake, usando o JSON Server.
+A aplicação simula um sistema utilizado em clínicas, com funcionalidades essenciais como cadastro, listagem e remoção de pacientes, mantendo uma proposta minimalista.
+
+O frontend foi desenvolvido com HTML, CSS e JavaScript e o backend foi simulado pela implementação de uma API Fake, usando o JSON Server.
 
 ## 📚 Documentação do Projeto
 
