@@ -8,17 +8,16 @@ Abaixo está o Diagrama Entidade-Relacionamento (DER) que representa a estrutura
 
 ```mermaid
 erDiagram
-CLIENTE ||--o{ TRANSACAO : "realiza (e paga taxa)"
+PACIENTE ||--o{ CADASTRO : "tem um cadastro"
 CLIENTE {
 string id PK "Gerado automaticamente"
 string nome
 string cpf "Usado para o login"
-string senha
-float saldo "Atualizado a cada operação"
+string endereço
 }
-TRANSACAO {
+CADASTRO {
 string id PK
-string clienteId FK "Vínculo com o Cliente"
+string clienteId FK "Vínculo com o Paciente"
 string tipo "DEPOSITO, SAQUE ou TAXA"
 float valor
 string data "Formato ISO (YYYY-MM-DD)"
