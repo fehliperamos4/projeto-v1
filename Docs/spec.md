@@ -112,5 +112,4 @@ USUARIO_MESTRE {
   ]
 }
 ```
-👉 montar o **backend em TypeScript sem usar for (igual você pediu antes)**
-👉 ou criar já as **requisições prontas (fetch/axios)**
+
