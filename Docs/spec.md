@@ -23,6 +23,13 @@ float valor
 string data "Formato ISO (YYYY-MM-DD)"
 string descricao "Ex: 'Taxa de manutenção respiratória'"
 }
+VISUALIZAÇÃO ||--o{ CADASTRO : "pode visualizar"
+PACIENTE {
+string id PK "Gerado automaticamente"
+string nome
+string cpf "Usado para o login"
+string endereço
+}
 ```
 
 ## 2. Dicionário de Dados
