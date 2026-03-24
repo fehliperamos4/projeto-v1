@@ -18,24 +18,13 @@ PACIENTE {
   string cpf
 }
 
-CADASTRO {
-  string id PK
-  string pacienteId FK "Vínculo com o Paciente"
-  string descricao "Informações do atendimento"
-  string data "Formato ISO (YYYY-MM-DD)"
-}
-
 VISUALIZACAO ||--o{ PACIENTE : "visualiza"
 VISUALIZACAO {
   string id PK "Gerado automaticamente"
   string usuario "Quem está usando o sistema"
 }
 
-REMOCAO {
-  string id PK
-  string pacienteId FK "Paciente removido"
-  string data "Data da remoção"
-}
+
 ```
 
 ## 2. Dicionário de Dados
