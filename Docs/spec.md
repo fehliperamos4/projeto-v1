@@ -24,7 +24,7 @@ string data "Formato ISO (YYYY-MM-DD)"
 string descricao "Ex: 'Taxa de manutenção respiratória'"
 }
 VISUALIZAÇÃO ||--o{ CADASTRO : "pode visualizar"
-PACIENTE {
+VISUALIZAÇÃO {
 string id PK "Gerado automaticamente"
 string nome
 string cpf "Usado para o login"
