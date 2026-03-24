@@ -9,7 +9,7 @@ Abaixo está o Diagrama Entidade-Relacionamento (DER) que representa a estrutura
 ```mermaid
 erDiagram
 PACIENTE ||--o{ CADASTRO : "tem um cadastro"
-CLIENTE {
+PACIENTE {
 string id PK "Gerado automaticamente"
 string nome
 string cpf "Usado para o login"
