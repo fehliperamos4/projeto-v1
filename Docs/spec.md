@@ -8,27 +8,33 @@ Abaixo está o Diagrama Entidade-Relacionamento (DER) que representa a estrutura
 
 ```mermaid
 erDiagram
-PACIENTE ||--o{ CADASTRO : "tem um cadastro"
+PACIENTE ||--o{ CADASTRO : "tem registros"
+PACIENTE ||--o{ REMOCAO : "pode ser removido"
+
 PACIENTE {
-string id PK "Gerado automaticamente"
-string nome
-string cpf "Usado para o login"
-string endereço
+  string id PK "Gerado automaticamente"
+  string nome
+  int idade
+  string cpf
 }
+
 CADASTRO {
-string id PK
-string clienteId FK "Vínculo com o Paciente"
-string tipo "DEPOSITO, SAQUE ou TAXA"
-float valor
-string data "Formato ISO (YYYY-MM-DD)"
-string descricao "Ex: 'Taxa de manutenção respiratória'"
+  string id PK
+  string pacienteId FK "Vínculo com o Paciente"
+  string descricao "Informações do atendimento"
+  string data "Formato ISO (YYYY-MM-DD)"
 }
-VISUALIZAÇÃO ||--o{ CADASTRO : "pode visualizar"
-VISUALIZAÇÃO {
-string id PK "Gerado automaticamente"
-string nome
-string cpf "Usado para o login"
-string endereço
+
+VISUALIZACAO ||--o{ PACIENTE : "visualiza"
+VISUALIZACAO {
+  string id PK "Gerado automaticamente"
+  string usuario "Quem está usando o sistema"
+}
+
+REMOCAO {
+  string id PK
+  string pacienteId FK "Paciente removido"
+  string data "Data da remoção"
 }
 ```
 
