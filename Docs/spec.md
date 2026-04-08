@@ -1,5 +1,5 @@
 
-# 🛠️ Especificação Técnica TECH SPEC - Prontuário Eletrônico
+# 🛠️ Especificação Técnica TECH SPEC - Med Vew
 
 ## 1. Modelo de Dados (Diagrama ER)
 
