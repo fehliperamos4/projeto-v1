@@ -113,3 +113,10 @@ USUARIO_MESTRE {
 }
 ```
 
+
+
+5. Tecnologias Empregadas
+   Bootstrap 5.3.3 CSS
+   API ViaCEP API v1
+
+   Garante a versão mais tualizada das tecnologia CSS e a API permite a automatização dos cadastro de novo usuario dos sistema.
