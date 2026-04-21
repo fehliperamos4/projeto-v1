@@ -1,0 +1,27 @@
+{
+  "name": "projeto-v1",
+  "version": "1.0.0",
+  "description": "Este projeto tem como objetivo implementar de forma simples e didática uma aplicação web de prontuário eletrônico, permitindo o cadastro e gerenciamento básico de pacientes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fehliperamos4/projeto-v1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/fehliperamos4/projeto-v1/issues"
+  },
+  "homepage": "https://github.com/fehliperamos4/projeto-v1#readme",
+  "dependencies": {
+    "uuid": "^14.0.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
