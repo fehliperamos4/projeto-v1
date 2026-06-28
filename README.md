@@ -23,7 +23,7 @@ Para entender as regras de negócio, o escopo e a arquitetura técnica da aplica
 
 ## 🌐 Site em Produção - GitHub Pages
 
-https://fehliperamos4.github.io/Med-Vew/
+https://fehliperamos4.github.io/MedVew/
 
 ## 💻 Tecnologias e Dependências
 
