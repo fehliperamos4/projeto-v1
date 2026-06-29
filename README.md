@@ -92,6 +92,17 @@ https://fehliperamos4.github.io/MedVew/
 - Executar o projeto frontend.
 
 ## 📱 Telas da aplicação
+<img width="512" height="410" alt="login" src="https://github.com/user-attachments/assets/eab0f4c1-fd1b-4552-b627-c7ec204825a0" />
+<img width="512" height="410" alt="cadastro" src="https://github.com/user-attachments/assets/c9d5424c-5e6f-46c8-8697-758289011e48" />
+
+<img width="512" height="436" alt="configuracoes" src="https://github.com/user-attachments/assets/5c9c672d-90de-42fb-b845-628ff6b7f063" />
+<img width="512" height="410" alt="meus-exames" src="https://github.com/user-attachments/assets/7becfbde-1962-4347-9890-3b3ea8cd8a82" />
+<img width="512" height="410" alt="novo-exame" src="https://github.com/user-attachments/assets/da33cfd8-1ff4-4b3f-9283-745f18fb22c1" />
+
+
+
+
+
 
 
 
